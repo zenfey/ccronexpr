@@ -1,3 +1,5 @@
+*This fork repository mainly includes cmake support in for convenient usage as submodule*
+
 Cron expression parsing in ANSI C
 =================================
 
