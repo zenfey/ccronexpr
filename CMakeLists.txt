@@ -10,4 +10,5 @@ target_include_directories(ccronexpr_static PUBLIC
   $<INSTALL_INTERFACE:include>)
 target_compile_features(ccronexpr_static PRIVATE cxx_std_17)
 target_compile_options(ccronexpr_static PRIVATE -Wextra -Wall)
+target_compile_definitions(ccronexpr_static PRIVATE -DCRON_USE_LOCAL_TIME)
 
